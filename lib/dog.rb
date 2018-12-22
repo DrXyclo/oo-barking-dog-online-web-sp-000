@@ -10,3 +10,6 @@ class Dog
     puts "Woof!"
   end
 end
+
+fido = Dog.new 
+puts fido.bark
