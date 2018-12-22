@@ -11,6 +11,10 @@ class Dog
   end
 end
 
-fido = Dog.new 
-puts fido.bark
-puts fido.name 
+
+
+
+
+# fido = Dog.new 
+# puts fido.bark
+# puts fido.name 
