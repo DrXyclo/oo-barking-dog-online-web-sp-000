@@ -1,14 +1,31 @@
 # Your code goes here!
 
-class Dog 
+class Dog
   
-  def name 
+  def initialize(name, breed = "Mutt")
+    @name = name
+    @breed = breed
+  end
+  
+  def name=(name)
+    @name = name
+  end
+  
+  def breed=(breed)
+    @breed = breed
+  end
+  
+  def name
     @name
   end
   
-   def bark
-    puts "Woof!"
+  def breed
+    @breed
   end
+  
+  def bark
+    puts "Woof!"
+  end 
 end
 
 
